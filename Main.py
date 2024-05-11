@@ -4,10 +4,11 @@
 Numero1 = input('Qual o número: ')
 Numero2 = input('Qual o outro número: ')
 Operação = input('Qual operação deseja fazer: ')
-soma = int(Numero1) + int(Numero2)
-menos = int(Numero1) - int(Numero2)
-vezes = int(Numero1) * int(Numero2)
-dividir = int(Numero1) / int(Numero2)
+
+soma = float(Numero1) + float(Numero2)
+menos = float(Numero1) - float(Numero2)
+vezes = float(Numero1) * float(Numero2)
+dividir = float(Numero1) / float(Numero2)
 
 if Operação == 'soma':
     print(f'O resultado é {soma}')
@@ -24,4 +25,5 @@ elif Operação == 'dividir':
 else:
     print('ERRO')
 
-#Números com virgula não são possiveis colocar, apenas os resultados podem ter virgula.
+#Não use está calculadora para fazer contas grandes, pois ela é bem simples e não consegue fazer isso.
+#Ela funciona com números com virgula
